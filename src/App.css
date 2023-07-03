@@ -1,0 +1,65 @@
+/* App.css */
+
+:root {
+  --primary-color: #4f6d7a;
+  --secondary-color: #e94f37;
+  --text-color: #333;
+  --background-color: #f2f2f2;
+}
+
+#puppy-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.puppy {
+  background-color: var(--background-color);
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  margin-bottom: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.puppy:hover {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+.puppy p {
+  margin: 0;
+  font-size: 18px;
+  color: var(--text-color);
+}
+
+.details {
+  background-color: var(--background-color);
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.details h2 {
+  margin-top: 0;
+  font-size: 24px;
+  color: var(--primary-color);
+}
+
+.details ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.details li {
+  margin-bottom: 8px;
+  font-size: 16px;
+  color: var(--text-color);
+}
+
+.details li:last-child {
+  margin-bottom: 0;
+}
